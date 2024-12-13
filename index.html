@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodShare</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+    <header>
+        <h1>FoodShare</h1>
+        <p>Helping to reduce food waste and feed those in need</p>
+        <a href="#signup">Store Sign-Up</a>
+    </header>
+
+    <main>
+        <h2>Available Items</h2>
+        <div id="items-container">
+            <div class="item">
+                <h3>Milk</h3>
+                <p>Store: Green Grocers</p>
+                <p>Expiry Date: 2023-12-01</p>
+                <p>Price: $2.50</p>
+            </div>
+            <div class="item">
+                <h3>Bread</h3>
+                <p>Store: Fresh Bakes</p>
+                <p>Expiry Date: 2023-12-05</p>
+                <p>Price: $1.50</p>
+            </div>
+        </div>
+      <!-- Google Form Embed -->
+      <div class="form-container">
+        <h2>Sign-Up with Google Form</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfKwjw6dvlv0Vdf8RxOrUTQfV4m09oXFciME8LjoILVfu6YA/viewform?usp=sharing" width="640" height="800"></iframe>
+    </div>
+        <!-- Formspree Contact Form -->
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/mzzbqrzp" method="POST">
+                <label for="email">Your email:</label>
+                <input type="email" name="email" required>
+
+                <label for="message">Your message:</label>
+                <textarea name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FoodShare. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
